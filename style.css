@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-page{
+    height: 100vh;
+    width: 100vw;
+}
+.top-bar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
+}
+#scaler1{
+    margin-left: 200px;
+}
+#scaler2{
+    margin-right: 200px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+}
+  
+textarea::placeholder {
+    font-weight: bold;
+    opacity: 1;
+    
+}
+.write-tweet{
+    margin-top: 200px;
+    margin-left: 400px;
+}
+#tweet-content{
+    padding: 10px;
+    margin-top: 40px;
+    height: 300px;
+    width: 600px;
+}
+#post{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tweet{
+    display: flex;
+    width: 500px;
+}
+.ppf{
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}
+#tweet-content{
+    margin-top: 10px;
+    border: none;
+}
+.post-button{
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    height: 45px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+.post-button:hover{
+    cursor: pointer;
+}
+.show-tweet{
+    margin-right: 300px;
+    margin-top: 80px;
+   
+}
+.posted-tweets {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tweet {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 700px;
+    
+}
+
+
+.ppf {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.delete-button, .like-button, .comment-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.delete-button:hover, .like-button:hover, .comment-button:hover {
+    background-color: #e0e0e0;
+}
+
+.delete-comment-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.delete-comment-button:hover {
+    background-color: #cc0000;
+}
+.tweet p {
+    word-wrap: break-word;
+}
+.comment {
+    margin-left: 50px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.delete-button, .like-button, .comment-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #f44336;
+}
+
+.like-button:hover, .comment-button:hover {
+    background-color: #45a049;
+}
+
+.delete-button:hover {
+    background-color: #e53935;
+}
+
+.delete-comment-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}
+
+.delete-comment-button:hover {
+    background-color: #e53935;
+}
